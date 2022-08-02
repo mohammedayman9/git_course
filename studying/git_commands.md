@@ -4,6 +4,7 @@
 - You Type git then type the command.
 - EX : git status
 - Commands you'll use a lot :
+        - git clone [repo_link] : Clones the repo into your drive.
         - git status : Gives you the status of files in your git dir.
         - git add [file_name | (*) To add all files] : Adds the file to the staging area from your working dir.
         - git reset head [file_name] : Restore the file to your working dir.
