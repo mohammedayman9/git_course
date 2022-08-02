@@ -8,3 +8,4 @@
         - git add [file_name | (*) To add all files] : Adds the file to the staging area from your working dir.
         - git reset head [file_name] : Restore the file to your working dir.
         - git commit -m 'Message contains what you have finished': Adds the file from the staging area to the local repo.
+        - git push [remote_name] [branch_name]
