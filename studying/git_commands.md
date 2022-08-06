@@ -21,3 +21,5 @@
 - git config --global [one_of_configurations] ["value"] : Edits the value of this config.
 - git config --global [one_of_configurations] --unset : Removes the value of this config.
 - git config --global --edit : Opens the config file in the your text editor.
+-----------------------------------
+- git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
