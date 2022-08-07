@@ -21,5 +21,6 @@
 - git config --global [one_of_configurations] ["value"] : Edits the value of this config.
 - git config --global [one_of_configurations] --unset : Removes the value of this config.
 - git config --global --edit : Opens the config file in the your text editor.
+- git config --global alias.[nickname] [original_command] : Makes an alias name you can use for the command.
 -----------------------------------
 - git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
