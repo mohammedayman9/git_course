@@ -22,5 +22,12 @@
 - git config --global [one_of_configurations] --unset : Removes the value of this config.
 - git config --global --edit : Opens the config file in the your text editor.
 - git config --global alias.[nickname] [original_command] : Makes an alias name you can use for the command.
+- git branch : Shows you your current existed branches.
+- git branch [branch_name] : Makes a new branch for you.
+- git checkout [branch_name] : Transfer you to this branch.
+- git checkout -b [branch_name] : Makes a new branch then transfers you to this branch.
+- git branch -d [branch_name] : Deletes the branch after checking that it has no edits or updates.
+- git branch -D [branch_name] : Forces deleting the branch without checking on anything.
+- git branch -m [new_branch_name] : Renames the current branch
 -----------------------------------
 - git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
