@@ -28,6 +28,10 @@
 - git checkout -b [branch_name] : Makes a new branch then transfers you to this branch.
 - git branch -d [branch_name] : Deletes the branch after checking that it has no edits or updates.
 - git branch -D [branch_name] : Forces deleting the branch without checking on anything.
-- git branch -m [new_branch_name] : Renames the current branch
+- git branch -m [new_branch_name] : Renames the current branch.
+- git stash : Moves the files from the staging area to the stash.
+- git stash list : Gives you the list of the files in the stash.
+- git stash drop : Deletes a file from the stash.
+- git stash clear : Deletes all the files in the stash.
 -----------------------------------
 - git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
