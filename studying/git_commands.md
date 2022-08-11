@@ -33,5 +33,8 @@
 - git stash list : Gives you the list of the files in the stash.
 - git stash drop : Deletes a file from the stash.
 - git stash clear : Deletes all the files in the stash.
+- git restore --staged [file_name] : Restore the file from the staging area to your local repo.
+- git clean -n : Gives you the files that would be deleted from your local repo.
+- git clean -f : Deletes the files that ain't in the staging area or on the remote repo.
 -----------------------------------
 - git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
