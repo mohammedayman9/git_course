@@ -39,5 +39,16 @@
 - git log : Gives you the latest commits.
 - git reset --hard [commit_log_id] : Moves the head pointer from the last commit to the commit you give its id and deletes the commits after it.
 - git push origin main --force : Updates the remoter repo with the deleted commits.
+- git add [file_name] -f : Adds the file to the staging area even it is in the ignored files.
 -----------------------------------
 - git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
+-----------------------------------
+
+### To Ignore Adding Some Files To The Remote Repo :
+-----------------------------------------------------
+
+- Make a file with extension .gitignore
+- Put the files you need to ignore in.
+- To ignore Files in a specific extension you can put *.ext
+- To ignore a specific dir you can put dir_name/
+- To ignore a specific file you can put file_name.ext
