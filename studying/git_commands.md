@@ -36,5 +36,8 @@
 - git restore --staged [file_name] : Restore the file from the staging area to your local repo.
 - git clean -n : Gives you the files that would be deleted from your local repo.
 - git clean -f : Deletes the files that ain't in the staging area or on the remote repo.
+- git log : Gives you the latest commits.
+- git reset --hard [commit_log_id] : Moves the head pointer from the last commit to the commit you give its id and deletes the commits after it.
+- git push origin main --force : Updates the remoter repo with the deleted commits.
 -----------------------------------
 - git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
