@@ -40,6 +40,11 @@
 - git reset --hard [commit_log_id] : Moves the head pointer from the last commit to the commit you give its id and deletes the commits after it.
 - git push origin main --force : Updates the remoter repo with the deleted commits.
 - git add [file_name] -f : Adds the file to the staging area even it is in the ignored files.
+- git tag [version_name] : Separates your projects on many tag to separate your project's version.
+- git tag -a [version_name] -m "Write what's new in this version": Creates a new tag for already released project.
+- git tag : Gives you a list of your tags.
+- git tag -d : Deletes a tag from your local repo.
+- git push origin --delete : Deletes a tag from the remote repo.
 -----------------------------------
 - git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
 -----------------------------------
