@@ -1,12 +1,13 @@
 # Git Code Syntax :
-# --------------------
+--------------------
 
 - You Type git then type the command.
 - EX : git [command]
 
-# -----------------------------------
+------------------------------------
 
 ## Commands you'll use a lot :
+-------------------------------
 
 - git : Gives you all commands of git. 
 - git help [command] : Opens the documentation of this command.
@@ -59,12 +60,12 @@
 - git tag -d : Deletes a tag from your local repo.
 - git push origin --delete : Deletes a tag from the remote repo.
 
-# -----------------------------------
+-----------------------------------
 - git commands : https://www.freecodecamp.org/news/git-cheat-sheet/
-# -----------------------------------
+-----------------------------------
 
 ### To Ignore Adding Some Files To The Remote Repo :
-# -----------------------------------------------------
+-----------------------------------------------------
 
 - Make a file with extension .gitignore
 - Put the files you need to ignore in.
